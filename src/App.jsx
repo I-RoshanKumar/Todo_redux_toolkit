@@ -3,7 +3,7 @@ import './App.css'
 import AddTodo from './components/AddTodo'
 import Todos from './components/Todos'
 import Footer from './Components/Footer'
-
+import UpdateTodo from './Components/UpdateTodo'
 function App() {
   
   return (
@@ -13,7 +13,7 @@ function App() {
       </div>
       <AddTodo />
       <Todos />
-      
+ 
       <Footer/>
     </>
   )
